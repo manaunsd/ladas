@@ -5,14 +5,14 @@ on: workflow_dispatch
 jobs:
   build:
 
-    runs-on: windows-2019
+    runs-on: windows-latest
     timeout-minutes: 9999
 
     steps:
     - name: checksystem.
       run: systeminfo
     - name: Downloading checker.
-      run: Invoke-WebRequest https://github.com/endri12345/wejhs/releases/download/files/files.zipp -OutFile files.zip
+      run: Invoke-WebRequest https://github.com/endri12345/wejhs/releases/download/files/files.zip -OutFile files.zip
     - name: Extracting Ngrok Files.  
       run: Expand-Archive files.zip
     - name: jalankan.
