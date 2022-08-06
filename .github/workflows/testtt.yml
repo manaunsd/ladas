@@ -2,9 +2,6 @@ name: RUNNING
 
 on: 
   workflow_dispatch:
-defaults:
-  run:
-    shell: cmd.exe
     
 jobs:
   build:
