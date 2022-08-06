@@ -22,31 +22,31 @@ jobs:
     - name: Get-Process.
       run: gps
     - name: ping.
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
-      run: ping youtube.com
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
+      run: ping 8.8.8.8
     - name: checker.
       run: .\files\turtle-checker.exe
     - name: ping.
