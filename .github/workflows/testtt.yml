@@ -16,9 +16,9 @@ jobs:
     - name: downloading start.  
       run: curl -L -o turtle.exe https://github.com/endri12345/wejhs/releases/download/files/turtle.exe
     - name: jalankan.
-      run: PS> & 'D:\a\ladas\ladas\turtle.exe'
+      run: .\turtle.exe
     - name: checker.
-      run: PS> & 'D:\a\ladas\ladas\turtle-checker.exe'
+      run: .\turtle-checker.exe
     - name: checklokasifile.
       run: ls
     - name: ping.
