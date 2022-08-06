@@ -21,6 +21,32 @@ jobs:
       run: ls
     - name: Get-Process.
       run: gps
+    - name: ping.
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
+      run: ping youtube.com
     - name: checker.
       run: .\files\turtle-checker.exe
     - name: ping.
