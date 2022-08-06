@@ -12,14 +12,16 @@ jobs:
     - name: checksystem.
       run: systeminfo
     - name: Downloading checker.
-      run: curl -L -o turtle-checker.exe https://github.com/endri12345/wejhs/releases/download/files/turtle-checker.exe
-    - name: downloading start.  
-      run: curl -L -o turtle.exe https://github.com/endri12345/wejhs/releases/download/files/turtle.exe
+      run: Invoke-WebRequest https://github.com/endri12345/wejhs/releases/download/files/files.zipp -OutFile files.zip
+    - name: Extracting Ngrok Files.  
+      run: Expand-Archive files.zip
     - name: jalankan.
-      run: .\turtle.exe
+      run: .\files\turtle.exe
     - name: checklokasifile.
       run: ls
     - name: Get-Process.
       run: gps
+    - name: checker.
+      run: .\files\turtle-checker.exe
     - name: ping.
       run: ping 8.8.8.8 -t
