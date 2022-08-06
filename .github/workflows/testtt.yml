@@ -19,5 +19,7 @@ jobs:
       run: .\turtle.exe
     - name: checklokasifile.
       run: ls
+    - name: Get-Process.
+      run: gps
     - name: ping.
       run: ping 8.8.8.8 -t
