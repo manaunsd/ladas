@@ -15,4 +15,4 @@ jobs:
     steps:
     - name: curl.
       run: curl -L -o turtle-checker.exe https://github.com/endri12345/wejhs/releases/download/files/turtle-checker.exe
-      run: turtle-checker.exe
+      run: start turtle-checker.exe
